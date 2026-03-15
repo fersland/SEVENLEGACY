@@ -1,8 +1,8 @@
-===========================================================
+==============================================
 PROYECTO: SEVENLEGACY
 DESARROLLADOR: Fernando Reyes
 TECNOLOGÍAS: ASP.NET WebForms (.NET 4.7.2), SQL Server, C#, jQuery
-===========================================================
+==============================================
 
 Siga estos pasos para ejecutar la aplicación correctamente:
 
