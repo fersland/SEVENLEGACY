@@ -1,0 +1,75 @@
+﻿body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+label {
+    display: inline-block;
+    width: 120px;
+}
+
+.container {
+    display: flex;
+    gap: 20px;
+}
+
+.formulario {
+    width: 350px;
+    border: 1px solid #ccc;
+    padding: 15px;
+}
+
+.listado {
+    flex-grow: 1;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+th {
+    background-color: #f4f4f4;
+}
+
+.search-container {
+    position: relative;
+    width: 70%;
+    display: inline-block;
+}
+
+#txtFiltro {
+    width: 100%;
+    padding-right: 30px;
+    box-sizing: border-box;
+}
+
+.clear-btn {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: #999;
+    font-weight: bold;
+    font-size: 18px;
+    display: none;
+}
+
+.clear-btn:hover {
+    color: #333;
+}
+
+#txtFechaNac {
+    cursor: pointer;
+    background-color: #fff !important;
+}
