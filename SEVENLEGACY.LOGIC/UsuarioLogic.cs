@@ -13,7 +13,6 @@ namespace SEVENLEGACY.LOGIC
         private UsuarioData _obj = new UsuarioData();
         public Usuario ValidarAcceso(string user, string pass)
         {
-            // Podrías agregar aquí lógica de bloqueo de cuenta si fallan 3 veces
             return _obj.Login(user, pass);
         }
     }
